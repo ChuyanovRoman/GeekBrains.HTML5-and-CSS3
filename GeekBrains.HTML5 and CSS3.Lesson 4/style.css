@@ -1,0 +1,348 @@
+body {
+    width: 1510px;
+    font-family: arial;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    height: 323px;
+    background-color: rgb(68, 81, 98);
+    color: white;
+}
+
+header h1 {
+    padding-top: 53px;
+    font-size: 60px;
+    padding-left: 50px;
+}
+
+header ul {
+    font-size: 20px;
+    padding-left: 50px;
+    list-style: none;
+}
+
+header ul li::before {
+    content: '✔';
+}
+
+header figure {
+    background: url(ipad.png);
+    background-size: 69%;
+    background-repeat: no-repeat;
+    background-position: 70px -11px;
+    background-color: white;
+    width: 468px;
+    height: 214px;
+    position: relative;
+    left: 945px;
+    bottom: 222px;
+}
+
+main {
+    padding-top: 53px;
+    margin-left: 50px;
+    height: 344px;
+    color: rgb(68, 81, 98);
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+main p {
+    font-size: 16px;
+}
+
+main embed {
+    height: 246px;
+    width: 430px;
+    background-color: rgb(68, 81, 98);
+    position: relative;
+    left: 975px;
+    bottom: 202px;
+}
+
+#dignity {
+    height: 417px;
+    background-color: rgb(245, 245, 245);
+}
+
+#dignity h2 {
+    font-size: 30px;
+    color: rgb(68, 81, 98);
+    text-align: center;
+    padding-top: 50px;
+}
+
+#dignity table {
+    margin-left: 135px;
+}
+
+#dignity table td {
+    font-size: 16px;
+    padding-bottom: 35px;
+    padding-left: 23px;
+    width: 570px;
+    float: left;
+}
+
+.pluses {
+    height: 32px;
+    width: 32px;
+    background-color: rgb(68, 81, 98);
+    color: white;
+    font-size: 55px;
+    line-height: 33px;
+    float: left;
+    margin-bottom: 32px;
+    margin-right: 10px;
+}
+
+#scrinshots {
+    height: 488px;
+    color: rgb(68, 81, 98);
+}
+
+#scrinshots h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#product1 {
+    height: 150px;
+    width: 200px;
+    background: url(1234.jpg);
+    background-size: 110%;
+    float: left;
+}
+
+#product2 {
+    height: 150px;
+    width: 200px;
+    background: url(1234.jpg);
+    background-size: 110%;
+    background-position: 0px 150px;
+    float: left;
+}
+
+#product3 {
+    height: 150px;
+    width: 200px;
+    background: url(1234.jpg);
+    background-size: 110%;
+    background-position: -30px 330px;
+    float: left;
+}
+
+#product4 {
+    height: 150px;
+    width: 200px;
+    background: url(1234.jpg);
+    background-size: 110%;
+    background-position: 40px 490px;
+    float: left;
+}
+
+#scrinshots table td h3 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+#scrinshots table td p {
+    font-size: 16px;
+}
+
+#scrinshots table td h3,
+#scrinshots table td p {
+    float: left;
+}
+
+#reviews {
+    height: 424px;
+    background-color: rgb(245, 245, 245);
+}
+
+#reviews h2 {
+    color: rgb(68, 81, 98);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#reviews figure {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, white, grey);
+    float: left;
+}
+
+#reviews table {
+    margin-left: 85px;
+}
+
+#reviews table td h3,
+#reviews table td p {
+    float: left;
+}
+
+#reviews table td {
+    padding-bottom: 25px;
+}
+
+#reviews table td div {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#reviews div {
+    background-color: rgb(235, 235, 235);
+    width: 470px;
+    height: 110px;
+    float: left;
+    border-radius: 7px;
+}
+
+#text {
+    color: rgb(152, 152, 152);
+    text-align: 14px;
+}
+
+#buy {
+    height: 655px;
+    text-align: center;
+}
+
+#buy h2 {
+    padding-top: 53px;
+    font-size: 30px;
+    color: rgb(68, 81, 98);
+}
+
+#buy h3 {
+    font-size: 24px;
+}
+
+#buy button {
+    width: 260px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 18px;
+    color: rgb(68, 81, 98);
+}
+
+#standart,
+#premium,
+#lux {
+    width: 300px;
+    background-color: rgb(68, 81, 98);
+    float: left;
+    margin-left: 45px;
+    border-radius: 2%;
+    color: white
+}
+
+#standart {
+    margin-top: 206px;
+    margin-left: 270px;
+}
+
+#premium {
+    margin-top: 139px;
+}
+
+#lux {
+    margin-top: 72px;
+}
+
+.price {
+    width: 296px;
+    margin-left: 2px;
+    font-size: 40px;
+    height: 67px;
+    background-color: white;
+    color: rgb(68, 81, 98);
+    line-height: 65px;
+}
+
+.items {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+    color: white;
+    margin-top: 22px;
+}
+
+.address {
+    height: 509px;
+    background-color: rgb(68, 81, 98);
+}
+
+.address h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 53px;
+    font-family: arial;
+}
+
+.address form {
+    float: left;
+}
+
+.address input,
+.address textarea {
+    width: 500px;
+    margin-left: 249px;
+    height: 40px;
+    margin-bottom: 22px;
+    border-radius: 5px;
+    color: rgb(68, 81, 98);
+}
+
+.address textarea {
+    height: 170px;
+}
+
+#button {
+    height: 40px;
+    width: 140px;
+    margin-left: 429px;
+    background-color: white;
+    color: rgb(68, 81, 98);
+    font-size: 16px;
+}
+
+#social {
+    float: left;
+    font-size: 24px;
+    margin-left: 46px;
+    color: white;
+}
+
+.circle {
+    float: left;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(68, 81, 98);
+    text-align: center;
+    line-height: 42px;
+    margin-right: 7px;
+    text-decoration: none;
+}
+
+footer {
+    height: 26px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(68, 81, 98);
+    margin-top: 5px;
+}

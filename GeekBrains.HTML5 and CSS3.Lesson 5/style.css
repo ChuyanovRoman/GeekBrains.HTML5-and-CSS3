@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+header {
+    font-family: Raleway;
+    margin: 0 auto;
+    width: inherit;
+    height: 605px;
+    background: url(bg_slider.jpg);
+    background-size: 100%;
+}
+
+header ul {
+    float: right;
+    margin-right: 150px;
+}
+
+header ul li {
+    float: left;
+    padding-left: 15px;
+    list-style: none;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header h2 {
+    text-align: center;
+    color: white;
+    padding-top: 216px;
+    margin-bottom: -25px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+header h3 {
+    text-align: center;
+    color: white;
+    font-size: 11px;
+}
+
+header button {
+    text-align: center;
+    color: white;
+    background-color: rgb(153, 134, 117);
+    margin-left: 700px;
+    font-size: 10px;
+    width: 111px;
+    height: 35px;
+    border-radius: 5%;
+    border-color: rgb(153, 134, 117);
+    margin-top: 8px;
+}
